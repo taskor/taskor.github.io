@@ -1,2 +1,2 @@
 print("Hello World!")
-input("Country:")
+country = input("Country:")
