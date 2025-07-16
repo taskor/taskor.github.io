@@ -14,8 +14,8 @@ elif n < 0:
 else:
     print("Your number is zero.")
 print("Names")
-names = [Vladimir, Maiia, Taisiia, Tatiana]
-print("The firrst name is:" + names[0])
+names = ["Vladimir", "Maiia", "Taisiia", "Tatiana"]
+print("The first name is:" + names[0])
 print("The second name is:" + names[1])
 print("The third name is:" + names[2])
 print("The fourth name is:" + names[3])
