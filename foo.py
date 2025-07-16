@@ -2,7 +2,7 @@ print("Hello World!")
 name = input("Name: ")
 print(f"Hello, {name}!")
 country = input("Country: ")
-print("You are from:" + country) 
+print("You are from: " + country) 
 n = int(input("Enter a number: "))
 if n > 0:
     print("Your number is positive.")
