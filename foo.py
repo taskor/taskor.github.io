@@ -1,3 +1,5 @@
 print("Hello World!")
-country = input("Country:")
+name = input("Name: ")
+print(f"Hello, {name}!")
+country = input("Country: ")
 print("You are from:" + country) 
