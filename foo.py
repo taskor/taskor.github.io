@@ -1,4 +1,7 @@
 print("Hello World!")
+
+print("Feel free to comment out any segment you don't want to run.")
+
 print("Your name")
 name = input("Name: ")
 print(f"Hello, {name}!")
