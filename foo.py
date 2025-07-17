@@ -54,3 +54,10 @@ print("The twenty-sixth letter is: " + alphabet[25])
 
 print("Coordinates")
 coordinates = (10, 20)
+print("The first coordinate is: " + str(coordinates[0]))
+print("The second coordinate is: " + str(coordinates[1]))
+
+print("Names appended and sorted in alphabetical order")
+names.append("Masha")
+names.sort()
+print(names)
