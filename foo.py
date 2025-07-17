@@ -1,5 +1,8 @@
 print("Hello World!")
 
+print("Comments")
+print("A one line commment would start with a # symbol.")
+print("A multi-line comment can be enclosed in triple quotes.")
 print("Feel free to comment out any segment you don't want to run.")
 
 print("Your name")
