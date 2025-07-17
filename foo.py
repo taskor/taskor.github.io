@@ -51,3 +51,6 @@ print("The twenty-third letter is: " + alphabet[22])
 print("The twenty-fourth letter is: " + alphabet[23])
 print("The twenty-fifth letter is: " + alphabet[24])
 print("The twenty-sixth letter is: " + alphabet[25])
+
+print("Coordinates")
+coordinates = (10, 20)
