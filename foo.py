@@ -1,22 +1,22 @@
 print("Hello World!")
 
-print("____________________________________________________________________")
+print("--------------------------------------------------------------")
 print("Comments")
 print("A one line commment would start with a # symbol.")
 print("A multi-line comment can be enclosed in triple quotes.")
 print("Feel free to comment out any segment you don't want to run.")
 
-print("____________________________________________________________________")
+print("--------------------------------------------------------------")
 print("Your name")
 name = input("Name: ")
 print(f"Hello, {name}!")
 
-print("____________________________________________________________________")
+print("--------------------------------------------------------------")
 print("Your Country")
 country = input("Country: ")
 print("You are from: " + country)
 
-print("____________________________________________________________________")
+print("--------------------------------------------------------------")
 print("Your number")
 n = int(input("Enter a number: "))
 if n > 0:
@@ -26,7 +26,7 @@ elif n < 0:
 else:
     print("Your number is zero.")
 
-print("____________________________________________________________________")
+print("--------------------------------------------------------------")
 print("Names")
 names = ["Vladimir", "Maiia", "Taisiia", "Tatiana"]
 print("The first name is: " + names[0])
@@ -34,7 +34,7 @@ print("The second name is: " + names[1])
 print("The third name is: " + names[2])
 print("The fourth name is: " + names[3])
 
-print("____________________________________________________________________")
+print("--------------------------------------------------------------")
 print("The alphabet")
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 print("The first letter is: " + alphabet[0])
@@ -64,19 +64,19 @@ print("The twenty-fourth letter is: " + alphabet[23])
 print("The twenty-fifth letter is: " + alphabet[24])
 print("The twenty-sixth letter is: " + alphabet[25])
 
-print("____________________________________________________________________")
+print("--------------------------------------------------------------")
 print("Coordinates")
 coordinates = (10, 20)
 print("The first coordinate is: " + str(coordinates[0]))
 print("The second coordinate is: " + str(coordinates[1]))
 
-print("____________________________________________________________________")
+print("--------------------------------------------------------------")
 print("Names appended and sorted in alphabetical order")
 names.append("Masha")
 names.sort()
 print(names)
 
-print("____________________________________________________________________")
+print("--------------------------------------------------------------")
 print("Sets")
 firstSet = set()
 print("We have created an empty set.")
