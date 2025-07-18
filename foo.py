@@ -94,3 +94,8 @@ firstSet.remove("meow")
 print(firstSet)
 print("We can see the length of the set:")
 print(f"Our set has {len(firstSet)} elements.")
+
+print("--------------------------------------------------------------")
+print("Loops")
+for i in range(15):
+    print (i)
