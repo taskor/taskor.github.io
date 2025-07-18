@@ -26,7 +26,7 @@ elif n < 0:
 else:
     print("Your number is zero.")
 
-print("--------------------------------------------------------------")
+    print("--------------------------------------------------------------")
 print("Names")
 names = ["Vladimir", "Maiia", "Taisiia", "Tatiana"]
 print("The first name is: " + names[0])
@@ -93,9 +93,11 @@ print("We can also remove an element from the set:")
 firstSet.remove("meow")
 print(firstSet)
 print("We can see the length of the set:")
-print(f"Our set has {len(firstSet)} elements.")
+print(f"Our set has {len(firstSet)} elements.")          
 
 print("--------------------------------------------------------------")
 print("Loops")
 for i in range(15):
     print (i)
+for name in names:
+    print(name)
