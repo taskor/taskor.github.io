@@ -101,3 +101,14 @@ for i in range(15):
     print (i)
 for name in names:
     print(name)
+
+print("--------------------------------------------------------------")
+print("Dictionaries")
+people = {"46yr": "Vladimir", "45yr" : "Tatiana", "21yr" : "Maiia"}
+print(people["46yr"])
+print(people["45yr"])
+print(people["21yr"])
+print("The oldest person is: " + people["46yr"])
+print("The youngest person is: " + people["21yr"])
+people["11yr"] = "Taisiia"
+print(f"The new youngest person is: {people['11yr']}")
