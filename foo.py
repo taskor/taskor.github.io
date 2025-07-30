@@ -112,3 +112,10 @@ print("The oldest person is: " + people["46yr"])
 print("The youngest person is: " + people["21yr"])
 people["11yr"] = "Taisiia"
 print(f"The new youngest person is: {people['11yr']}")
+
+print("--------------------------------------------------------------")
+print("Functions")
+def square(x):
+    return x * x
+for i in range(10):
+    print(f"The square of {i} is {square(i)}")
