@@ -180,8 +180,14 @@ print(people)
 '''
 print("--------------------------------------------------------------")
 print("Exceptions")
+import sys
 x = int(input("Enter a number: "))
 y = int(input("Enter another number: "))
 
-result = x / y
+try:
+    result = x / y
+except ZeroDivisionError:
+    print("Error: You cannot divide by zero.")
+    sys.exit(1)
+
 print(f"The quotient of {x} divided by {y} is: {result}")
