@@ -1,6 +1,8 @@
+# square function
 def square(x):
     return x * x
 
+# Point class
 class Point():
     def __init__(self, x, y):
         self.x = x
@@ -10,6 +12,7 @@ p = Point(2, 8)
 print(p.x)
 print(p.y)
 
+# Flight class
 class Flight():
     def __init__ (self, capaicty):
         self.capacity = capaicty
@@ -35,6 +38,7 @@ for person in people:
     else:
         print(f"{person} could not be added to the flight due to no available seats.")
 
+# Decorators
 def announce(f):
     def wrapper():
         print("About to run the function...")
