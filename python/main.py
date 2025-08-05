@@ -1,4 +1,4 @@
-print("Hello World!")
+'''print("Hello World!")
 
 print("--------------------------------------------------------------")
 print("Comments")
@@ -165,3 +165,15 @@ def hello():
     print("Hello, World!")
 
 hello()
+'''
+print("--------------------------------------------------------------")
+print("Lambda Functions")
+people = [
+    {"name": "Maiia", "house": "Gryfinndor"},
+    {"name": "Taisiia", "house": "Ravenclaw"},
+    {"name": "Tatiana", "house": "Hufflepuff"},
+    {"name": "Vladimir", "house": "Slytherin"}
+]
+people.sort(key=lambda person: person["name"])
+
+print(people)

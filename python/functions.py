@@ -51,3 +51,13 @@ def hello():
     print("Hello, World!")
 
 hello()
+
+people = [
+    {"name": "Maiia", "house": "Gryfinndor"},
+    {"name": "Taisiia", "house": "Ravenclaw"},
+    {"name": "Tatiana", "house": "Hufflepuff"},
+    {"name": "Vladimir", "house": "Slytherin"}
+]
+people.sort(key=lambda person: person["name"])
+
+print(people)
