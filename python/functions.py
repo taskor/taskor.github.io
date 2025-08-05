@@ -1,10 +1,6 @@
 def square(x):
     return x * x
 
-print("--------------------------------------------------------------")
-print("Object-Oriented Programming (added from main.py)")
-print("--------------------------------------------------------------")
-print("Classes")
 class Point():
     def __init__(self, x, y):
         self.x = x
@@ -38,3 +34,16 @@ for person in people:
         print(f"{person} has been added to the flight.")
     else:
         print(f"{person} could not be added to the flight due to no available seats.")
+
+def announce(f):
+    def wrapper():
+        print("About to run the function...")
+        f()
+        print("Function has been run.")
+    return wrapper
+
+@announce
+def hello():
+    print("Hello, World!")
+
+hello()

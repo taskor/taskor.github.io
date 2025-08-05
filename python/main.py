@@ -1,5 +1,5 @@
 
-'''print("Hello World!")
+print("Hello World!")
 
 print("--------------------------------------------------------------")
 print("Comments")
@@ -113,7 +113,7 @@ print("The oldest person is: " + people["46yr"])
 print("The youngest person is: " + people["21yr"])
 people["11yr"] = "Taisiia"
 print(f"The new youngest person is: {people['11yr']}")
-'''
+
 print("--------------------------------------------------------------")
 print("Object-Oriented Programming")
 print("--------------------------------------------------------------")
@@ -151,3 +151,18 @@ for person in people:
         print(f"{person} has been added to the flight.")
     else:
         print(f"{person} could not be added to the flight due to no available seats.")
+
+print("--------------------------------------------------------------")
+print("Decorators")
+def announce(f):
+    def wrapper():
+        print("About to run the function...")
+        f()
+        print("Function has been run.")
+    return wrapper
+
+@announce
+def hello():
+    print("Hello, World!")
+
+hello()
