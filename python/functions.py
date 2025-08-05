@@ -51,7 +51,7 @@ def hello():
     print("Hello, World!")
 
 hello()
-
+# Lambda Functions
 people = [
     {"name": "Maiia", "house": "Gryfinndor"},
     {"name": "Taisiia", "house": "Ravenclaw"},
