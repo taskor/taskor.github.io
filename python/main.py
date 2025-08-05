@@ -165,7 +165,7 @@ def hello():
     print("Hello, World!")
 
 hello()
-'''
+
 print("--------------------------------------------------------------")
 print("Lambda Functions")
 people = [
@@ -177,3 +177,11 @@ people = [
 people.sort(key=lambda person: person["name"])
 
 print(people)
+'''
+print("--------------------------------------------------------------")
+print("Exceptions")
+x = int(input("Enter a number: "))
+y = int(input("Enter another number: "))
+
+result = x / y
+print(f"The quotient of {x} divided by {y} is: {result}")
