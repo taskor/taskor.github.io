@@ -181,8 +181,12 @@ print(people)
 print("--------------------------------------------------------------")
 print("Exceptions")
 import sys
-x = int(input("Enter a number: "))
-y = int(input("Enter another number: "))
+try:
+    x = int(input("Enter a number: "))
+    y = int(input("Enter another number: "))
+except ValueError:
+    print("Error: Please enter valid integers.")
+    sys.exit(1)
 
 try:
     result = x / y
